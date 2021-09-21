@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo liên kết tải file trực tiếp trên Google Drive</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./Get_Link_GGDrive.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Công cụ miễn phí giúp bạn dễ dàng lấy link download trực tiếp từ ggdrive một cách dễ dàng.</h1>
+        <div class="container__item">
+            <form class="form">
+                <input type="text" id="link" class="form__field" placeholder="Nhập link cần get ở đây" />
+                <button type="button" onclick="splitLink()" class="btn btn--primary btn--inside uppercase">Send</button>
+            </form>
+        </div>
+
+        <p>Link download : <a id="data">Download</a> </p>
+
+        <div class="container__item container__item--bottom">
+            <p>Code by <a href="https://www.facebook.com/eotihvn/" target="_blank">EOTIHVN</a>.| <button type="button"
+                    id="myBtn" onclick="alert('Đang được cập nhật')" class="btn btn--primary">Hướng dẫn sử dụng</button>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
